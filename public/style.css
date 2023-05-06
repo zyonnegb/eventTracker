@@ -1,0 +1,38 @@
+body{
+  padding-top:80px;
+  word-wrap:break-word;
+}
+img{
+  height: 200px;
+}
+.container{
+  display: flex;
+  flex-direction: column;
+}
+.sections{
+  display: flex;
+  flex-direction: row;
+}
+.cardWrapper{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+.leftSide{
+  height: 15rem;
+}
+.card:hover{
+  transform: scale(103%);
+}
+#edit{
+  margin-left: -15%;
+}
+#complete{
+  margin-left: -32%;
+}
+#edit:hover{
+  transform: scale(150%);
+}
+#trash:hover{
+  transform: scale(110%);
+}
